@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+$green-50: #69b99b;
+$green-100: #0f2319;
+$green-200: #303030;
+$green-300: #282828;
+$green-400: #53b58d;
+$grey-30: #d6e0dc;
+$black: #000000;
+$font-family-base: 'Inter', sans-serif;
+
+$theme-colors: (
+  'green-50': $green-50,
+  'green-100': $green-100,
+  'green-200': $green-200,
+  'green-400': $green-400,
+  'green-300': $green-300,
+  'black': $black,
+);
+
+.upload-card {
+  background-color: rgba($green-400, 0.05) !important;
+  &:hover {
+    border: 1px solid $green-100 !important;
+  }
+}
+
+.hr {
+  border-top: 2px solid $grey-30 !important;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.font-weight-400 {
+  font-weight: 400 !important;
+}
+.font-weight-600 {
+  font-weight: 600 !important;
+}
+.font-weight-800 {
+  font-weight: 800 !important;
+}
+
+/* Create a custom checkbox */
+.label-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    &:checked {
+      ~ {
+        .checkmark {
+          background-color: $green-400;
+          border: 2.5px solid $green-400;
+          &:after {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 12.5px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+    border: 2.5px solid $green-400;
+  }
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap';
