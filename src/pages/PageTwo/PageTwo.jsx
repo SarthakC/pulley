@@ -42,7 +42,7 @@ const PageTwo = () => {
 
   useEffect(() => {
     if (checked.length === 5) history.push(LINKS.pageThree);
-  }, [checked]);
+  }, [checked, history]);
 
   return (
     <Container className='py-5'>
