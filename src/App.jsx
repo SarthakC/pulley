@@ -5,7 +5,7 @@ import LINKS from './utils/LINKS';
 
 const App = () => {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Switch>
         <Route exact path={LINKS.pageOne} component={PageOne} />
         <Route exact path={LINKS.pageTwo} component={PageTwo} />
