@@ -20,9 +20,9 @@ const PageOne = () => {
           />
         </div>
         <div className='d-flex align-items-center'>
-          <hr className='w-25' />
+          <hr class='w-25' />
           <span className='bg-white px-2 text-green-300'>Or</span>
-          <hr className='w-75' />
+          <hr class='w-75' />
         </div>
         <div className='mt-3'>
           <Upload
