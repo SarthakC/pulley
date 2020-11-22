@@ -1,7 +1,7 @@
 const LINKS = {
   pageOne: '/',
-  pageTwo: '/pageTwo',
-  pageThree: '/pageThree',
+  pageTwo: '/pagetwo',
+  pageThree: '/pagethree',
 };
 
 export default LINKS;
