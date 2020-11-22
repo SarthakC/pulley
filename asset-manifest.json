@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pulley/static/css/main.8246ee31.chunk.css",
+    "main.js": "/pulley/static/js/main.9016741d.chunk.js",
+    "main.js.map": "/pulley/static/js/main.9016741d.chunk.js.map",
+    "runtime-main.js": "/pulley/static/js/runtime-main.50d74d9d.js",
+    "runtime-main.js.map": "/pulley/static/js/runtime-main.50d74d9d.js.map",
+    "static/js/2.5946de83.chunk.js": "/pulley/static/js/2.5946de83.chunk.js",
+    "static/js/2.5946de83.chunk.js.map": "/pulley/static/js/2.5946de83.chunk.js.map",
+    "index.html": "/pulley/index.html",
+    "static/css/main.8246ee31.chunk.css.map": "/pulley/static/css/main.8246ee31.chunk.css.map",
+    "static/js/2.5946de83.chunk.js.LICENSE.txt": "/pulley/static/js/2.5946de83.chunk.js.LICENSE.txt",
+    "static/media/FloatDoodle.da57a760.png": "/pulley/static/media/FloatDoodle.da57a760.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50d74d9d.js",
+    "static/js/2.5946de83.chunk.js",
+    "static/css/main.8246ee31.chunk.css",
+    "static/js/main.9016741d.chunk.js"
+  ]
+}
