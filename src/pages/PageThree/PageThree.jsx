@@ -44,7 +44,10 @@ const PageThree = () => {
         <ListGroup>
           {OPTIONS.map((option, idx) => (
             <ListGroup.Item className='border-right-0 border-left-0 ' key={idx}>
-              <Link className='d-flex align-items-center justify-content-between'>
+              <Link
+                className='d-flex align-items-center justify-content-between'
+                to='#'
+              >
                 <div className='d-flex align-items-center'>
                   <Star className='mr-3' fill={option.fill} />
                   <div>
